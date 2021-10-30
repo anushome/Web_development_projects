@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe Game </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+
+<body>
+    <div class="shape">
+        <div class="cross"><img src= "Image\X.png"></div>
+        <div class="cross"><img src= "Image\X.png" ></div>
+        <div class="cross"><img src= "Image\X.png" ></div>
+        <div class="cross"><img src= "Image\O.png"></div>
+        <div class="cross"><img src= "Image\O.png"></div>
+        <div class="cross"><img src= "Image\O.png"></div>
+    </div>  
+    <div class = "navigation">
+        <img src="Image\logo.jpeg" width="85" height="85">
+    </div>
+    
+    <!-- select box -->
+    <div class="select-box">
+        <header><img src="Image\logo-center.png" width="200" height="200"></header>
+    <div class="content">
+        <p id="option">PLAYER</p>
+        <div class="options">
+            <button class="playerX">X</button>
+            <button class="playerO">O</button>
+      </div>
+    </div>
+  </div> 
+
+  <!-- playboard section -->
+
+  <div class="play-board">
+    <div class="details">
+      <div class="players">
+        <span class="Xturn">X's Turn</span>
+        <span class="Oturn">O's Turn</span>
+        <div class="slider"></div>
+      </div>
+    </div>
+    <div class="play-area">
+      <section>
+        <span class="box1"></span>
+        <span class="box2"></span>
+        <span class="box3"></span>
+      </section>
+      <section>
+        <span class="box4"></span>
+        <span class="box5"></span>
+        <span class="box6"></span>
+      </section>
+      <section>
+        <span class="box7"></span>
+        <span class="box8"></span>
+        <span class="box9"></span>
+      </section>
+    </div>
+  </div>
+  <div class="scoreboard">
+      
+  </div>
+  <!-- result box -->
+  <div class="result-box">
+    <div class="won-text"></div>
+    <div class="btn"><button>Replay</button></div>
+
+    <div class="firework" id="firework1">
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework2">
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework3">
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+      <div class="explosion"></div>
+    </div>
+  </div>
+  <script src="code.js"></script>
+</body>
+</html>
